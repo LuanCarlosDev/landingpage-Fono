@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Otávio Messias | Fonoaudiologia Clínica, Autismo (ABA) & Ciência de Dados em Saúde</title>
+  <meta name="description"
+    content="Atendimento fonoaudiológico especializado com prática baseada em evidências, Análise do Comportamento Aplicada (ABA) e Ciência de Dados em Saúde pelo Sírio-Libanês. Aracaju - SE.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Dr. Otávio Messias | Fonoaudiologia Clínica & Ciência de Dados em Saúde">
+  <meta property="og:description"
+    content="Prática fonoaudiológica baseada em evidências, autismo (ABA) e monitoramento contínuo de desfechos clínicos em Aracaju.">
+  <meta property="og:image" content="assets/images/otavio-hero.jpg">
+
+  <!-- Fontes de Alta Distinção Editorial -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Folha de Estilos Principal -->
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+
+<body>
+
+  <!-- Ícones SVG Reutilizáveis -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-arrow-right" viewBox="0 0 24 24">
+      <path d="M5 12h14M13 6l6 6-6 6" />
+    </symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24">
+      <path d="M12 5v14M6 13l6 6 6-6" />
+    </symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24">
+      <path d="M12 20V4M5 11l7-7 7 7" />
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path d="M5 12l5 5 9-10" />
+    </symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24">
+      <path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6z" />
+      <path d="M9 12l2 2 4-4" />
+    </symbol>
+    <symbol id="i-medal" viewBox="0 0 24 24">
+      <circle cx="12" cy="9" r="5" />
+      <path d="M8.5 13l-1.5 8 5-3 5 3-1.5-8" />
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 7v5l3 2" />
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z" />
+      <circle cx="12" cy="9.5" r="2.5" />
+    </symbol>
+    <symbol id="i-whats" viewBox="0 0 24 24">
+      <path d="M3.5 20.5l1.3-4.2A8.6 8.6 0 1 1 8 19.4z" />
+      <path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .8a4.5 4.5 0 0 1-2.2-2.2l.8-1-1-2z" />
+    </symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r=".6" />
+    </symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24">
+      <path d="M4 8h16M4 16h16" />
+    </symbol>
+    <symbol id="i-close" viewBox="0 0 24 24">
+      <path d="M6 6l12 12M18 6L6 18" />
+    </symbol>
+    <symbol id="i-play" viewBox="0 0 24 24">
+      <path d="M8 5.5v13l10.5-6.5z" />
+    </symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24">
+      <path d="M6 4h4v16H6zM14 4h4v16h-4z" fill="currentColor" />
+    </symbol>
+    <symbol id="i-sound-off" viewBox="0 0 24 24">
+      <path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" />
+      <path d="M16 9.5l5 5M21 9.5l-5 5" />
+    </symbol>
+    <symbol id="i-sound-on" viewBox="0 0 24 24">
+      <path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" />
+      <path d="M16 9a4.5 4.5 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11" />
+    </symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24">
+      <path d="M18 20V10M12 20V4M6 20v-6" />
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Abertura Cortina (Intro) -->
+  <div class="intro" id="intro" aria-hidden="true">
+    <span class="intro-word"><span>Dr. Otávio</span></span>
+    <span class="intro-word"><span>Messias</span></span>
+    <span class="intro-word"><span>Fonoaudiologia</span></span>
+  </div>
+
+  <!-- Barra de Progresso Superior -->
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <!-- ========== MENU SUPERIOR ========== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#topo" class="brand" aria-label="Dr. Otávio Messias, voltar ao topo">
+        <span class="logo" aria-hidden="true">
+          <span class="logo-name">Dr. Otávio Messias</span>
+          <span class="logo-by">Fonoaudiologia & Ciência de Dados</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <a href="#metodo">O Método</a>
+        <a href="#especialista">O Especialista</a>
+        <a href="#servicos">Especialidades</a>
+        <a href="#clinica">Clínica Evoluir</a>
+        <a href="#como-funciona">Acompanhamento</a>
+        <a href="#duvidas">Dúvidas</a>
+        <a href="https://wa.me/5579988275620?text=Ol%C3%A1%2C%20Dr.%20Ot%C3%A1vio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+          class="btn btn-primary nav-cta" target="_blank" rel="noopener">Agendar Consulta</a>
+      </nav>
+
+      <a href="https://wa.me/5579988275620?text=Ol%C3%A1%2C%20Dr.%20Ot%C3%A1vio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+        class="btn btn-outline-white header-cta" target="_blank" rel="noopener">Agendar Consulta</a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"
+        aria-controls="nav">
+        <svg class="ico">
+          <use href="#i-menu" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ========== TOPO (HERO SECTION DE ALTO IMPACTO) ========== -->
+    <section class="hero" id="topo">
+      <div class="hero-media">
+        <img class="hero-photo" src="assets/images/otavio-hero.jpg?v=3"
+          alt="Dr. Otávio Messias de jaleco em seu estúdio clínico" width="2560" height="1440" fetchpriority="high">
+      </div>
+      <div class="hero-scrim" aria-hidden="true"></div>
+
+      <!-- Selo Giratório Circular -->
+      <a href="https://wa.me/5579988275620?text=Ol%C3%A1%2C%20Dr.%20Ot%C3%A1vio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+        class="spin-badge" target="_blank" rel="noopener" aria-label="Agendar consulta com Dr. Otávio Messias">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <defs>
+            <path id="circle-path" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0" />
+          </defs>
+          <text>
+            <textPath href="#circle-path">Dr. Otávio Messias • Ciência & Fonoaudiologia • </textPath>
+          </text>
+        </svg>
+        <span class="spin-badge-center"><svg class="ico">
+            <use href="#i-arrow-up" />
+          </svg></span>
+      </a>
+
+      <div class="container hero-content">
+        <span class="eyebrow eyebrow-light hero-anim" style="--d:0">Fonoaudiologia Clínica • TEA (ABA) • Ciência de
+          Dados pelo Sírio-Libanês</span>
+        <h1 class="hero-title">
+          <span class="line"><span style="--d:1">Comunicação que liberta.</span></span>
+          <span class="line"><span style="--d:2">Ciência que transforma.</span></span>
+          <span class="line"><em style="--d:3">Cuidado que acolhe.</em></span>
+        </h1>
+        <p class="hero-text hero-anim" style="--d:4">
+          Abordagem clínica especializada e humanizada em desenvolvimento da linguagem, intervenção no Transtorno do
+          Espectro Autista com práticas baseadas em evidências (ABA) e acompanhamento analítico de desfechos clínicos.
+        </p>
+
+        <div class="hero-actions hero-anim" style="--d:5">
+          <a href="https://wa.me/5579988275620?text=Ol%C3%A1%2C%20Dr.%20Ot%C3%A1vio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+            class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+            <svg class="ico">
+              <use href="#i-whats" />
+            </svg> Agendar Avaliação Clínica
+          </a>
+          <a href="#metodo" class="btn btn-outline-white btn-lg">Conhecer o Método</a>
+        </div>
+
+        <div class="hero-badges hero-anim" style="--d:6">
+          <div class="hero-badge-item">
+            <svg class="ico">
+              <use href="#i-medal" />
+            </svg>
+            <span>Hospital <strong>Sírio-Libanês</strong></span>
+          </div>
+          <div class="hero-badge-item">
+            <svg class="ico">
+              <use href="#i-shield" />
+            </svg>
+            <span>Prática Baseada em <strong>Evidências</strong></span>
+          </div>
+          <div class="hero-badge-item">
+            <svg class="ico">
+              <use href="#i-pin" />
+            </svg>
+            <span>Clínica <strong>Espaço Evoluir</strong> (Aracaju - SE)</span>
+          </div>
+          <a href="https://www.instagram.com/fonotavio_/" class="hero-badge-item hero-insta-badge" target="_blank"
+            rel="noopener" aria-label="Seguir Dr. Otávio no Instagram @fonotavio_">
+            <svg class="ico">
+              <use href="#i-insta" />
+            </svg>
+            <span>Acompanhe no Instagram: <strong>@fonotavio_</strong></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="container hero-footer">
+        <a href="#metodo" class="scroll-hint" style="margin-left: auto;">
+          Role para explorar <svg class="ico">
+            <use href="#i-arrow-down" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ========== FAIXA EM MOVIMENTO (MARQUEE) ========== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Fonoaudiologia Clínica</span><i>•</i>
+        <span>Análise do Comportamento Aplicada (ABA)</span><i>•</i>
+        <span>Ciência de Dados em Saúde</span><i>•</i>
+        <span>Hospital Sírio-Libanês</span><i>•</i>
+        <span>Desenvolvimento da Linguagem</span><i>•</i>
+        <span>Comunicação Alternativa e Aumentativa</span><i>•</i>
+        <span>Clínica Espaço Evoluir</span><i>•</i>
+        <span>Avaliação Neurofuncional</span><i>•</i>
+        <span>Fonoaudiologia Clínica</span><i>•</i>
+        <span>Análise do Comportamento Aplicada (ABA)</span><i>•</i>
+        <span>Ciência de Dados em Saúde</span><i>•</i>
+        <span>Hospital Sírio-Libanês</span><i>•</i>
+      </div>
+    </div>
+
+    <!-- ========== SELOS DE CONFIANÇA (TRUST) ========== -->
+    <section class="trust">
+      <div class="container">
+        <div class="trust-grid">
+          <div class="trust-item reveal">
+            <div class="trust-icon"><svg class="ico">
+                <use href="#i-shield" />
+              </svg></div>
+            <div>
+              <h3>Prática Baseada em Evidências</h3>
+              <p>Protocolos validados internacionalmente para intervenção segura e eficaz.</p>
+            </div>
+          </div>
+          <div class="trust-item reveal">
+            <div class="trust-icon"><svg class="ico">
+                <use href="#i-medal" />
+              </svg></div>
+            <div>
+              <h3>Especialização Sírio-Libanês</h3>
+              <p>Domínio em Ciência de Dados aplicada a desfechos clínicos em saúde.</p>
+            </div>
+          </div>
+          <div class="trust-item reveal">
+            <div class="trust-icon"><svg class="ico">
+                <use href="#i-chart" />
+              </svg></div>
+            <div>
+              <h3>Terapia ABA Estruturada</h3>
+              <p>Ensino sistemático para ganho de repertório comunicativo e autonomia diária.</p>
+            </div>
+          </div>
+          <div class="trust-item reveal">
+            <div class="trust-icon"><svg class="ico">
+                <use href="#i-check" />
+              </svg></div>
+            <div>
+              <h3>Acompanhamento Transparente</h3>
+              <p>Métricas de evolução claras e alinhamento constante com a família e escola.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PILARES DO MÉTODO CLÍNICO ========== -->
+    <section class="section" id="metodo">
+      <div class="container">
+        <header class="section-head center reveal">
+          <span class="eyebrow">Abordagem Integrada</span>
+          <h2 class="h2">O rigor da ciência a serviço do <em>desenvolvimento humano</em></h2>
+        </header>
+
+        <div class="cards-3">
+          <article class="card reveal">
+            <span class="card-num">01</span>
+            <h3>Avaliação Individualizada</h3>
+            <p>Mapeamento detalhado dos marcos de desenvolvimento da linguagem, comunicação pragmática, motricidade
+              orofacial e processamento da fala com testes padronizados.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-num">02</span>
+            <h3>Intervenção Lúdica & ABA</h3>
+            <p>Sessões estruturadas que transformam o aprendizado em um ambiente motivador, aplicando a Análise do
+              Comportamento para reforçar avanços reais e sustentáveis.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-num">03</span>
+            <h3>Monitoramento por Indicadores</h3>
+            <p>Mapeamento contínuo de curvas de aprendizagem através de dados clínicos, permitindo ajustes precisos no
+              plano terapêutico para atingir o potencial máximo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FAIXA EDITORIAL (BAND) ========== -->
+    <section class="band">
+      <div class="container reveal">
+        <span class="band-eyebrow">Propósito Clínico</span>
+        <p class="band-title">Cada voz carrega uma história única.</p>
+        <span class="band-sub">A ciência e a empatia pavimentam cada conquista.</span>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE O ESPECIALISTA ========== -->
+    <section class="section" id="especialista">
+      <div class="container about">
+        <div class="about-media img-reveal">
+          <img src="assets/images/otavio-6.jpg"
+            alt="Dr. Otávio Messias de jaleco e estetoscópio com expressão acolhedora" class="about-img" loading="lazy">
+        </div>
+        <div class="about-text reveal">
+          <span class="eyebrow">Quem cuida de você</span>
+          <h2 class="h2">Conheça o <em>Dr. Otávio Messias</em></h2>
+          <p class="lead">
+            Fonoaudiólogo clínico comprometido com a transformação da comunicação humana e o desenvolvimento neurológico
+            de crianças e jovens, especialmente dentro do Transtorno do Espectro Autista (TEA).
+          </p>
+          <p>
+            Com formação voltada à alta complexidade e especialização em Ciência de Dados em Saúde pelo Hospital
+            Sírio-Libanês, une o olhar sensível do atendimento clínico diário à precisão da tomada de decisão baseada em
+            dados reais e evidências científicas. Atua na clínica Espaço Evoluir, referência em desenvolvimento infantil
+            e neurodivergência em Sergipe.
+          </p>
+          <ul class="checks">
+            <li><svg class="ico">
+                <use href="#i-check" />
+              </svg>Fonoaudiologia Clínica com foco em Neurodesenvolvimento e TEA</li>
+            <li><svg class="ico">
+                <use href="#i-check" />
+              </svg>Prática Avançada em Análise do Comportamento Aplicada (ABA)</li>
+            <li><svg class="ico">
+                <use href="#i-check" />
+              </svg>Especialização em Ciência de Dados em Saúde (Hospital Sírio-Libanês)</li>
+            <li><svg class="ico">
+                <use href="#i-check" />
+              </svg>Acolhimento humanizado integrado à família, escola e equipe médica</li>
+          </ul>
+          <div style="padding-top: 8px;">
+            <a href="https://wa.me/5579988275620?text=Ol%C3%A1%2C%20Dr.%20Ot%C3%A1vio!%20Gostaria%20de%20conhecer%20mais%20sobre%20seu%20trabalho%20cl%C3%ADnico."
+              class="btn btn-dark btn-lg" target="_blank" rel="noopener">Falar com Dr. Otávio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ESPECIALIDADES (SERVIÇOS) ========== -->
+    <section class="section section-dark" id="servicos">
+      <div class="container">
+        <header class="section-head split reveal">
+          <div>
+            <span class="eyebrow eyebrow-light">Especialidades</span>
+            <h2 class="h2">Cuidado focado em resultados reais</h2>
+          </div>
+          <p>
+            Atendimento planejado para atender cada indivíduo em sua singularidade, promovendo autonomia comunicativa e
+            integração social com segurança científica.
+          </p>
+        </header>
+
+        <div class="services">
+          <article class="service reveal">
+            <div class="service-media img-reveal">
+              <img src="assets/images/otavio-jaleco-bracos.jpg" alt="Dr. Otávio Messias - Fonoaudiologia no TEA"
+                class="service-img" loading="lazy">
+            </div>
+            <div class="service-body">
+              <h3>Fonoaudiologia no TEA</h3>
+              <p>Intervenções voltadas para comunicação expressiva e receptiva, intenção comunicativa, reciprocidade
+                socioemocional e fala funcional no autismo.</p>
+              <div class="service-meta">
+                <span>Sessões estruturadas</span>
+                <strong>Clínica Evoluir</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service-media img-reveal">
+              <img src="assets/images/otavio-6.jpg" alt="Dr. Otávio Messias - Intervenção ABA Intensiva"
+                class="service-img" loading="lazy">
+            </div>
+            <div class="service-body">
+              <h3>Intervenção ABA Intensiva</h3>
+              <p>Ensino sistemático por tentativas discretas (DTT) e ensino incidental, modelagem de repertórios verbais
+                e redução de barreiras comportamentais.</p>
+              <div class="service-meta">
+                <span>Plano Individualizado</span>
+                <strong>Metodologia ABA</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service-media img-reveal">
+              <img src="assets/images/otavio-congresso-oncologia.jpg"
+                alt="Dr. Otávio Messias - Linguagem e Fala Infantil" class="service-img" loading="lazy">
+            </div>
+            <div class="service-body">
+              <h3>Linguagem e Fala Infantil</h3>
+              <p>Tratamento de trocas de fonemas, atrasos no desenvolvimento da fala, apraxia da fala na infância (AFI)
+                e dificuldades articulatórias.</p>
+              <div class="service-meta">
+                <span>Avaliação Padronizada</span>
+                <strong>Pediátrico</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service-media img-reveal">
+              <img src="assets/images/otavio-5.jpg" alt="Dr. Otávio Messias - Ciência de Dados em Saúde"
+                class="service-img" loading="lazy">
+            </div>
+            <div class="service-body">
+              <h3>Ciência de Dados em Saúde</h3>
+              <p>Sistematização e análise estatística de dados terapêuticos para medir curvas de evolução, assertividade
+                de metas e desfechos clínicos.</p>
+              <div class="service-meta">
+                <span>Sírio-Libanês</span>
+                <strong>Data-Driven Care</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 48px;">
+          <a href="https://wa.me/5579988275620?text=Ol%C3%A1%2C%20Dr.%20Ot%C3%A1vio!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20consulta."
+            class="btn btn-white btn-lg" target="_blank" rel="noopener">
+            Agendar Consulta pelo WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EM MOVIMENTO (VÍDEOS REELS ESPAÇO EVOLUIR INTERATIVOS) ========== -->
+    <section class="section section-soft" id="clinica">
+      <div class="container reels">
+        <header class="reels-text reveal">
+          <span class="eyebrow">Em Movimento</span>
+          <h2 class="h2">A prática clínica no <em>Espaço Evoluir</em></h2>
+          <p>
+            Ambiente planejado com salas de integração sensorial, materiais pedagógicos adaptados e estrutura acolhedora
+            para o desenvolvimento integral de cada criança.
+          </p>
+          <p style="font-size: 14px; color: var(--texto-3);">
+            Controle a reprodução e o volume diretamente nos vídeos. Ao reproduzir um vídeo, o outro pausa
+            automaticamente para uma experiência focada.
+          </p>
+          <a href="https://www.instagram.com/fonotavio_/" class="link-underline" target="_blank" rel="noopener">
+            Acompanhar vídeos no Instagram @fonotavio_
+          </a>
+        </header>
+
+        <div class="reels-grid">
+          <!-- Vídeo 1 Vertical Real 9:16 do Espaço Evoluir -->
+          <figure class="reel reveal" id="reel-1">
+            <video muted loop playsinline preload="metadata" data-src="assets/videos/espaco-evoluir.mp4"
+              aria-label="Vídeo 1: Atendimento clínico do Espaço Evoluir">
+              <source src="assets/videos/espaco-evoluir.mp4" type="video/mp4">
+            </video>
+            <div class="reel-ph" aria-hidden="true">
+              <svg class="ico ico-lg">
+                <use href="#i-play" />
+              </svg>
+              <span>Reproduzir Vídeo</span>
+            </div>
+            <button class="reel-play-btn" type="button" aria-label="Reproduzir vídeo">
+              <svg class="ico">
+                <use href="#i-play" />
+              </svg>
+            </button>
+            <div class="reel-vol-ctrl">
+              <button class="reel-vol-btn" type="button" aria-label="Ligar ou desligar som">
+                <svg class="ico">
+                  <use href="#i-sound-off" />
+                </svg>
+              </button>
+              <input type="range" class="reel-vol-slider" min="0" max="1" step="0.05" value="1"
+                aria-label="Ajustar volume">
+            </div>
+          </figure>
+
+          <!-- Vídeo 2 Vertical Real 9:16 do Espaço Evoluir (Interativo) -->
+          <figure class="reel reveal" id="reel-2">
+            <video muted loop playsinline preload="metadata" data-src="assets/videos/espaco-evoluir2.mp4"
+              aria-label="Vídeo 2: Estrutura clínica do Espaço Evoluir">
+              <source src="assets/videos/espaco-evoluir2.mp4" type="video/mp4">
+            </video>
+            <div class="reel-ph" aria-hidden="true">
+              <svg class="ico ico-lg">
+                <use href="#i-play" />
+              </svg>
+              <span>Reproduzir Vídeo</span>
+            </div>
+            <button class="reel-play-btn" type="button" aria-label="Reproduzir vídeo">
+              <svg class="ico">
+                <use href="#i-play" />
+              </svg>
+            </button>
+            <div class="reel-vol-ctrl">
+              <button class="reel-vol-btn" type="button" aria-label="Ligar ou desligar som">
+                <svg class="ico">
+                  <use href="#i-sound-off" />
+                </svg>
+              </button>
+              <input type="range" class="reel-vol-slider" min="0" max="1" step="0.05" value="1"
+                aria-label="Ajustar volume">
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ESTRUTURA MULTIDISCIPLINAR DA CLÍNICA (NOVA FOTO) ========== -->
+    <section class="section">
+      <div class="container about" style="grid-template-columns: 5fr 7fr;">
+        <div class="about-media img-reveal">
+          <img src="assets/images/otavio-clinica.jpg"
+            alt="Serviços multidisciplinares do Espaço Evoluir: Fonoaudiologia, Psicopedagogia, Nutricionista e Acompanhamento Terapêutico"
+            class="about-img" style="height: auto; max-height: 580px; object-fit: contain; background: #ffffff;"
+            loading="lazy">
+        </div>
+        <div class="about-text reveal">
+          <span class="eyebrow">Cuidado Integral</span>
+          <h2 class="h2">Atendimento <em>Multidisciplinar</em> de Alta Precisão</h2>
+          <p class="lead">
+            No Espaço Evoluir, o Dr. Otávio Messias atua em sinergia direta com psicopedagogos, nutricionistas e
+            acompanhantes terapêuticos (AT) para garantir um desenvolvimento completo e integrado.
+          </p>
+          <ul class="checks">
+            <li><svg class="ico">
+                <use href="#i-check" />
+              </svg><strong>Fonoaudiologia:</strong> Fala, linguagem funcional, comunicação alternativa e voz.</li>
+            <li><svg class="ico">
+                <use href="#i-check" />
+              </svg><strong>Psicopedagogia:</strong> Funções executivas, raciocínio lógico e habilidades escolares.</li>
+            <li><svg class="ico">
+                <use href="#i-check" />
+              </svg><strong>Nutricionista:</strong> Terapia alimentar e acompanhamento nutricional para o TEA.</li>
+            <li><svg class="ico">
+                <use href="#i-check" />
+              </svg><strong>Acompanhamento Terapêutico:</strong> Autonomia diária, regulação emocional e inclusão.</li>
+          </ul>
+          <div style="padding-top: 8px;">
+            <a href="https://wa.me/5579988275620?text=Ol%C3%A1%2C%20Dr.%20Ot%C3%A1vio!%20Gostaria%20de%20saber%20mais%20sobre%20o%20atendimento%20no%20Espa%C3%A7o%20Evoluir."
+              class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+              Conhecer o Espaço Evoluir
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COMO FUNCIONA O ACOMPANHAMENTO ========== -->
+    <section class="section section-soft" id="como-funciona">
+      <div class="container">
+        <header class="section-head center reveal">
+          <span class="eyebrow">Passo a Passo</span>
+          <h2 class="h2">Uma jornada planejada com <em>clareza e afeto</em></h2>
+        </header>
+
+        <ol class="steps">
+          <li class="reveal">
+            <span class="step-num">1</span>
+            <h3>Acolhimento & Anamnese</h3>
+            <p>Escuta aprofundada da história da família, rotina, preocupações e primeiras impressões sobre a
+              comunicação da criança.</p>
+          </li>
+          <li class="reveal">
+            <span class="step-num">2</span>
+            <h3>Avaliação Neurofuncional</h3>
+            <p>Aplicação de protocolos científicos para identificar marcos de linguagem, barreiras comunicativas e
+              repertórios comportamentais.</p>
+          </li>
+          <li class="reveal">
+            <span class="step-num">3</span>
+            <h3>Plano Terapêutico Singular</h3>
+            <p>Elaboração de metas com mensuração de dados contínua, orientações para os pais e diálogo próximo com a
+              equipe escolar e médica.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== CREDENCIAIS & PESQUISA CIENTÍFICA (3 CARDS COM NOVA FOTO CNPQ/UFS) ========== -->
+    <section class="section section-dark">
+      <div class="container">
+        <header class="section-head center reveal">
+          <span class="eyebrow eyebrow-light">Autoridade Científica</span>
+          <h2 class="h2">Produção científica e atualização <em>constante</em></h2>
+        </header>
+
+        <div class="credentials-grid">
+          <article class="credential-card reveal">
+            <div class="credential-media">
+              <img src="assets/images/otavio-5.jpg"
+                alt="Dr. Otávio Messias apresentando pesquisa de iniciação científica no CNPq e UFS"
+                class="credential-img credential-img-poster" loading="lazy">
+            </div>
+            <div class="credential-body">
+              <h3>Pesquisa Científica (CNPq & UFS)</h3>
+              <p>Apresentação de trabalho científico no 33º Encontro de Iniciação Científica sobre a efetividade da
+                terapia fonoaudiológica baseada em evidências.</p>
+            </div>
+          </article>
+
+          <article class="credential-card reveal">
+            <div class="credential-media">
+              <img src="assets/images/otavio-conferencia-saude.jpg"
+                alt="Dr. Otávio Messias em conferência de saúde e tecnologia" class="credential-img" loading="lazy">
+            </div>
+            <div class="credential-body">
+              <h3>Conferências Nacionais de Saúde</h3>
+              <p>Participação ativa em simpósios e fóruns de ponta em saúde digital, inteligência clínica e práticas
+                fonoaudiológicas avançadas.</p>
+            </div>
+          </article>
+
+          <article class="credential-card reveal">
+            <div class="credential-media">
+              <img src="assets/images/otavio-congresso-oncologia.jpg"
+                alt="Dr. Otávio Messias em congresso de oncologia e equipes multidisciplinares" class="credential-img"
+                loading="lazy">
+            </div>
+            <div class="credential-body">
+              <h3>Congresso de Especialidades & Multidisciplinaridade</h3>
+              <p>Integração de saberes clínicos de alta complexidade com rigor metodológico, foco no paciente e tomada
+                de decisão fundamentada em dados.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PERGUNTAS FREQUENTES (FAQ) ========== -->
+    <section class="section section-soft" id="duvidas">
+      <div class="container faq-wrap">
+        <header class="faq-head reveal">
+          <span class="eyebrow">Dúvidas Frequentes</span>
+          <h2 class="h2">Tudo o que você precisa saber</h2>
+          <p>Respostas transparentes para as dúvidas mais comuns sobre avaliação, tratamento fonoaudiológico e método
+            ABA.</p>
+        </header>
+
+        <div class="faq" id="faq">
+          <details open>
+            <summary>Como a Ciência de Dados auxilia o tratamento fonoaudiológico? <span class="faq-icon"
+                aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>A Ciência de Dados permite tabular e acompanhar graficamente a aquisição de novos comportamentos
+                comunicativos, vocabulário e clareza de fala. Isso elimina o 'achismo' e oferece aos pais e médicos
+                relatórios precisos sobre a eficácia de cada intervenção terapêutica.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Qual é a idade recomendada para a primeira avaliação fonoaudiológica? <span class="faq-icon"
+                aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>A intervenção precoce é determinante para o neurodesenvolvimento. A partir do primeiro ano de vida,
+                sinais como ausência de balbucio, pouco contato visual, não atendimento ao nome ou atraso na fala
+                justificam uma avaliação preventiva.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Como o método ABA é aplicado nas sessões com o Dr. Otávio? <span class="faq-icon"
+                aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>O método ABA é utilizado para decompor habilidades complexas em passos menores e estruturados,
+                associando reforçadores naturais para motivar a criança a interagir, vocalizar e expressar suas
+                necessidades com autonomia.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>A família recebe orientações para praticar em casa? <span class="faq-icon"
+                aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Sim. O sucesso terapêutico se potencializa quando pais e cuidadores sabem como estimular a comunicação
+                no cotidiano. Fornecemos orientações práticas, adaptadas à rotina familiar, para generalização dos
+                ganhos clínicos.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Como agendar uma avaliação inicial? <span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Basta clicar em qualquer botão de agendamento desta página para iniciar uma conversa direta no
+                WhatsApp. Nossa equipe verificará a disponibilidade de horários e esclarecerá todas as suas dúvidas com
+                atenção e cuidado.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ONDE ESTAMOS (LOCALIZAÇÃO) ========== -->
+    <section class="section" id="onde-estamos">
+      <div class="container location">
+        <div class="location-text reveal">
+          <span class="eyebrow">Localização</span>
+          <h2 class="h2">Atendimento no <em>Espaço Evoluir</em> em Aracaju</h2>
+          <ul class="location-list">
+            <li>
+              <svg class="ico">
+                <use href="#i-pin" />
+              </svg>
+              <span>
+                <strong>Clínica Espaço Evoluir</strong>
+                Rua Dr. Leonardo Leite, 560 — Bairro 13 de Julho<br>
+                Aracaju - SE • CEP 49020-160
+              </span>
+            </li>
+            <li>
+              <svg class="ico">
+                <use href="#i-clock" />
+              </svg>
+              <span>
+                <strong>Horários de Atendimento</strong>
+                Segunda a Sexta • 08h00 às 18h30<br>
+                Sábados (conforme agendamento prévio)
+              </span>
+            </li>
+          </ul>
+
+          <div style="padding-top: 8px;">
+            <a href="https://maps.google.com/?q=Aracaju+Sergipe" class="btn btn-dark btn-lg" target="_blank"
+              rel="noopener">
+              Como Chegar à Clínica
+            </a>
+          </div>
+        </div>
+
+        <div class="location-map reveal">
+          <iframe title="Mapa do Espaço Evoluir em Aracaju"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.472714588939!2d-37.0543666!3d-10.9276066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab18ff97d5195%3A0x6a213e4fb2d7705!2sAracaju%2C%20SE!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+            loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CHAMADA FINAL (FINAL CTA) ========== -->
+    <section class="final-cta" id="agendar">
+      <div class="container reveal">
+        <span class="eyebrow eyebrow-light">Inicie Agora</span>
+        <h2 class="h2">O futuro da comunicação de quem você ama começa com <em>uma conversa</em>.</h2>
+        <p>
+          Agende uma avaliação inicial com o Dr. Otávio Messias e descubra como uma intervenção baseada em dados e
+          acolhimento humano faz a diferença.
+        </p>
+        <a href="https://wa.me/5579988275620?text=Ol%C3%A1%2C%20Dr.%20Ot%C3%A1vio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20cl%C3%ADnica."
+          class="btn btn-primary btn-xl" target="_blank" rel="noopener">
+          <svg class="ico">
+            <use href="#i-whats" />
+          </svg> Agendar Horário pelo WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== BOTÃO FLUTUANTE (WHATSAPP) ========== -->
+  <a href="https://wa.me/5579988275620?text=Ol%C3%A1%2C%20Dr.%20Ot%C3%A1vio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+    class="floating-cta" id="floating-cta" target="_blank" rel="noopener"
+    aria-label="Agendar via WhatsApp: +55 79 98827-5620">
+    <svg class="ico">
+      <use href="#i-whats" />
+    </svg>
+    <span>Agendar Consulta</span>
+  </a>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Dr. Otávio Messias</strong> — Fonoaudiologia Clínica & Ciência de Dados em Saúde
+        <div style="font-size: 13px; color: var(--texto-3); margin-top: 4px;">
+          CRFa / Especialista Sírio-Libanês • Clínica Espaço Evoluir • Aracaju - SE • Contato: +55 79 98827-5620
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#topo">Voltar ao Topo</a>
+        <a href="https://www.instagram.com/fonotavio_/" target="_blank" rel="noopener">Instagram (@fonotavio_)</a>
+        <a href="https://wa.me/5579988275620" target="_blank" rel="noopener">WhatsApp (+55 79 98827-5620)</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Principal de Interações -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
