@@ -1,4 +1,4 @@
-# 🩺 Landing Page — Dr. Otávio Messias | Fonoaudiologia Clínica & Ciência de Dados
+#  Landing Page — Dr. Otávio Messias | Fonoaudiologia Clínica & Ciência de Dados
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📸 Demonstração Visual
+##  Demonstração Visual
 
 A interface foi projetada com base em princípios editoriais de alto rigor estético, combinando sofisticação, credibilidade científica e acolhimento humanizado.
 
@@ -20,7 +20,7 @@ A interface foi projetada com base em princípios editoriais de alto rigor esté
 
 ---
 
-## ✨ Principais Funcionalidades e Seções
+##  Principais Funcionalidades e Seções
 
 1. **Abertura Cinematográfica (Curtain Intro)**: Animação refinada revelando a marca do especialista no carregamento inicial.
 2. **Barra de Progresso de Leitura**: Indicador dinâmico no topo acompanhando a rolagem da página.
@@ -47,7 +47,7 @@ A interface foi projetada com base em princípios editoriais de alto rigor esté
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **HTML5 Semântico**: Estruturação com foco em acessibilidade (`aria-*`, semântica de seções, skip-links e tags nativas).
 - **Vanilla CSS (CSS3 Moderno)**:
@@ -62,7 +62,7 @@ A interface foi projetada com base em princípios editoriais de alto rigor esté
 
 ---
 
-## 📂 Estrutura de Arquivos
+##  Estrutura de Arquivos
 
 ```plaintext
 landpage-Otavio/
@@ -80,7 +80,7 @@ landpage-Otavio/
 
 ---
 
-## 🚀 Como Executar Localmente
+##  Como Executar Localmente
 
 Como o projeto foi desenvolvido com tecnologias web nativas (Vanilla), não há necessidade de etapas de compilação ou instalação de dependências:
 
@@ -109,7 +109,7 @@ Como o projeto foi desenvolvido com tecnologias web nativas (Vanilla), não há 
 
 ---
 
-## ⚡ Performance e Boas Práticas
+## Performance e Boas Práticas
 
 - **SEO Otimizado**: Meta tags Open Graph completas, tags canônicas, títulos descritivos e hierarquia semântica rigorosa (H1, H2, H3).
 - **Carregamento Otimizado**: Imagens com atributos de dimensão e `loading="lazy"` para recursos fora da dobra inicial.
@@ -117,7 +117,7 @@ Como o projeto foi desenvolvido com tecnologias web nativas (Vanilla), não há 
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Desenvolvido por **[Luan Carlos](https://github.com/LuanCarlosDev)**.
 
